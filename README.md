@@ -1,20 +1,20 @@
 # US Household Income Analysis (SQL Project)
 
 **Project Overview**  
-Cleaned and explored US Household Income dataset using MySQL. Fixed data quality issues and performed exploratory analysis to understand income patterns across states, types, and places.
+Cleaned and analyzed US Household Income dataset (32,526 records) using MySQL. Fixed data quality issues and explored income patterns across states, cities, and area types.
 
 **Tools & Skills Used**
 - MySQL
-- Data Cleaning (duplicate removal, string corrections, UPDATE statements)
+- Data Cleaning (duplicate removal, UPDATE statements, string corrections)
+- Joins (INNER JOIN between income and statistics tables)
 - Aggregations and GROUP BY
-- Joins between tables
 - Exploratory Data Analysis (EDA)
 
 **Key Insights**
-- Top states with highest average household income
-- Income variation by Type (Urban, Community, etc.)
-- Comparison of Mean vs Median income
-- Geographic patterns (land vs water area correlation with income)
+- Top states by average household income: District of Columbia, Connecticut, New Jersey
+- Highest income city: Short Hills, New Jersey (~$263K average)
+- Clear income variation by area Type (Municipality & Urban highest)
+- Significant difference between Mean and Median income across locations
 
 **Screenshots**
 
@@ -24,11 +24,11 @@ Cleaned and explored US Household Income dataset using MySQL. Fixed data quality
 
 ![Data Cleaning Fixes](sql-us-household-income%203.png)
 
-![Top States by Income](sql-us-household-income%204.png)
+![Top 10 States by Income](sql-us-household-income%204.png)
 
-![Income by Type](sql-us-household-income%205.png)
+![Income by Area Type](sql-us-household-income%205.png)
 
-![Key Insights](sql-us-household-income%206.png)
+![Highest Income Cities](sql-us-household-income%206.png)
 
 **Project Files**
 - `sql-us-household-income.sql` → Complete SQL script (cleaning + EDA)
